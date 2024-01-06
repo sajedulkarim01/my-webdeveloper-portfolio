@@ -105,7 +105,7 @@ main{
 .about {
     color:  #181818;
     text-align: center;
-    font-size: 35px;
+    font-size: 20px;
     font-weight: 700;
    border-radius: 10px;
    background: #FFF8F3;
@@ -123,9 +123,7 @@ main{
 .section-description{
     color: #757575;
 text-align: center;
-font-size: 18px;
-font-weight: 400;
-line-height: 30px; 
+ 
 }  
 .about-info-continer{
     display: flex;
@@ -133,4 +131,8 @@ line-height: 30px;
 }
 .about-info{
     text-align: center;
+    
+}
+#what-i-do{
+    padding: 30px 150px;
 }
