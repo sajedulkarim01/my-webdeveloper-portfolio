@@ -1,56 +1,127 @@
 /*common shared styles*/
-body{
-    font-family:'lato',sans-serif;
+body {
+    font-family: 'lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
 
 }
-.btn-primary{
-border-radius: 5px;
-background-color: #FD6E0A;
-color:  #FFF;
-font-size: 20px;
-font-weight: 700;
-border: 0px;
-padding: 15px 35px;
+
+.btn-primary {
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border: 0px;
+    padding: 15px 35px;
 
 }
+
 /*nav related styles*/
-nav{
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin:0px 200px;
+    margin: 0px 200px;
 }
-.nav-title{
-color:  #181818;
-font-size: 45px;
-font-weight: 800;
+
+.nav-title {
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
 }
-.text-primary{
+
+.text-primary {
     color: #FD6E0A;
 }
-nav > ul{
+
+nav>ul {
     display: flex;
 }
-nav li{
+
+nav li {
     list-style: none;
     margin-right: 50px;
 }
-nav a{
+
+nav a {
     text-decoration: none;
-    color:  #474747;
+    color: #474747;
 }
+
 /*header related styles*/
-.header{
-    background-color:  #FFF8F3;
+.header {
+    background-color: #FFF8F3;
+    background-image: url('/images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    
 
 }
-.banner{
-    padding: 30px 30px 30px 150px;
+
+.banner {
+    padding: 40px 30px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between
 }
-.banner.profile-pic{
+
+.banner-contener {
+    min-width: ;
+}
+
+.banner.profile-pic {
     width: 500px;
 }
 
+.banner-greeting {
+    font-size: 45px;
+    font-weight: 600;
+    color: Copy #181818;
+    margin: 0px;
+
+}
+
+.banner-titlr {
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.banner-description {
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+/*mane section*/
+
+
+/*about section styles*/
+.about {
+    color:  #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+   border-radius: 10px;
+   background: #FFF8F3;
+   margin: 130px 0px;
+
+    
+}
+
+.section-title {
+    color: #181818;
+   text-align: center;
+   font-style: 35px;
+   font-weight: 700px;
+}
+.section-description{
+    color: #757575;
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px; 
+}  
+    
